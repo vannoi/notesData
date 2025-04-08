@@ -1,1 +1,54 @@
-
+{
+  "users": [
+                {
+                  "id": 101,
+                  "title": "Chào mừng bạn đến với Ghi chú!",
+                  "content": "Đây là bản demo dữ liệu từ server ảo.\nBạn có thể dùng dữ liệu này để kiểm tra ứng dụng khi không có kết nối database thật.",
+                  "priority": 2,
+                  "createdAt": "2025-04-07T10:00:00.000Z",
+                  "modifiedAt": "2025-04-08T11:30:00.000Z",
+                  "tags": ["hướng dẫn", "demo", "json"],
+                  "color": "lightblue"
+                },
+                {
+                  "id": 102,
+                  "title": "Họp Team vào Thứ 6",
+                  "content": "Chuẩn bị slide báo cáo tiến độ dự án XYZ.\nNhớ xem lại các mục tiêu tuần trước.",
+                  "priority": 3,
+                  "createdAt": "2025-04-08T08:15:00.000Z",
+                  "modifiedAt": "2025-04-08T14:20:00.000Z",
+                  "tags": ["công việc", "họp", "quan trọng"],
+                  "color": "#FFCDD2"
+                },
+                {
+                  "id": 103,
+                  "title": "Mua đồ tạp hóa cuối tuần",
+                  "content": "- Sữa tươi không đường\n- Trứng gà (1 vỉ)\n- Bánh mì sandwich\n- Táo (3 quả)\n- Nước rửa chén",
+                  "priority": 1,
+                  "createdAt": "2025-04-08T16:05:00.000Z",
+                  "modifiedAt": "2025-04-08T16:05:00.000Z",
+                  "tags": ["cá nhân", "mua sắm"],
+                  "color": "#FFF9C4"
+                },
+                {
+                  "id": 104,
+                  "title": "Ý tưởng về tính năng mới",
+                  "content": "Thêm chức năng đính kèm ảnh vào ghi chú. Cần nghiên cứu cách lưu trữ ảnh hiệu quả (lưu vào DB dạng blob hay lưu file và chỉ lưu đường dẫn?).",
+                  "priority": 2,
+                  "createdAt": "2025-04-05T15:30:00.000Z",
+                  "modifiedAt": "2025-04-06T09:45:00.000Z",
+                  "tags": ["ý tưởng", "flutter", "dự án"],
+                  "color": "#C8E6C9"
+                },
+                {
+                  "id": 105,
+                  "title": "Đọc sách \"Clean Code\"",
+                  "content": "Mục tiêu đọc xong chương 3 trong tuần này.",
+                  "priority": 1,
+                  "createdAt": "2025-04-08T18:30:00.000Z",
+                  "modifiedAt": "2025-04-08T18:30:00.000Z",
+                  "tags": null, // Ví dụ không có tag
+                  "color": null // Ví dụ không có màu
+                }
+           ]
+}
